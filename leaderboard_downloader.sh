@@ -2,10 +2,10 @@
 
 # echo "num arguments $#"
 if [ "$#" -ne 2 ]; then
-  echo "  usage: leaderboard_downloader.sh url filename"
-  echo "    url:      url to leaderboard, e.g: https://www.hackerrank.com/challenges/training-the-army/leaderboard"
-  echo "    filename: output filename to store the results"
-  echo "  e.g: leaderboard_downloader.sh https://www.hackerrank.com/challenges/training-the-army/leaderboard q3_usernames.log"
+  echo "usage: leaderboard_downloader.sh url filename"
+  echo "    url         url to leaderboard, e.g: https://www.hackerrank.com/challenges/training-the-army/leaderboard"
+  echo "    filename    output filename to store the results"
+  echo "  e.g: leaderboard_downloader.sh https://www.hackerrank.com/challenges/training-the-army/leaderboard demo/army.log"
   exit 0
 fi
 
