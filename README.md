@@ -3,5 +3,5 @@ Hackerrank Leaderboard Downloader
 
 Usage:
 ```
-  ./download.sh
+  ./download.sh -h
 ```
