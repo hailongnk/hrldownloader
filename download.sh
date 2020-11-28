@@ -18,3 +18,12 @@ bash leaderboard_downloader.sh \
 bash leaderboard_downloader.sh \
   https://www.hackerrank.com/challenges/training-the-army/leaderboard    week_2/q3
 
+# Week 3
+mkdir -p week_3
+bash leaderboard_downloader.sh \
+  https://www.hackerrank.com/challenges/unfair-game/leaderboard               week_3/q1
+bash leaderboard_downloader.sh \
+  https://www.hackerrank.com/challenges/cloudy-day/leaderboard                week_3/q2
+bash leaderboard_downloader.sh \
+  https://www.hackerrank.com/challenges/winning-lottery-ticket/leaderboard    week_2/q2
+
