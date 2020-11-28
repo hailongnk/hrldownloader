@@ -3,7 +3,7 @@ import itertools
 
 nargs = len(sys.argv)
 if (nargs < 3):
-  print("error: missing arguments....\n")
+  print("info: missing arguments....\n")
   print("usage: match_username.py source_file_list")
   print("   source      path to usernames source file list")
   print(" e.g: python match_username.py week1/q1.log week1/q2.log")
@@ -46,6 +46,6 @@ for numSets in range(2, len(sources)+1):
     if len(m) <= 100:
       print(m)
     else:
-      print("(do not list, too many matches)",)
+      print("(do not list names here, too many matches)",)
 
 sys.exit()
